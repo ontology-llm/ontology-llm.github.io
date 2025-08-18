@@ -1,23 +1,40 @@
-name: CI
+name: Jekyll CI & Deploy
 
 on:
   push:
+    branches:
+      - main # or master if your default branch is master
   pull_request:
-    types: [opened, synchronize]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    name: script/cibuild
+
     steps:
+      # 1. Checkout the repo
       - uses: actions/checkout@v2
+
+      # 2. Setup Ruby & Bundler
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
           bundler-cache: true
+
+      # 3. Make scripts executable
       - name: Make scripts executable
         run: chmod +x script/bootstrap script/cibuild
-      - name: build
+
+      # 4. Install dependencies and build site
+      - name: Build site
         run: script/bootstrap
-      - name: test
-        run: script/cibuild
+
+      # 5. Test site (skip external links to avoid CI failure)
+      - name: Test site
+        run: bundle exec htmlproofer ./_site --disable-external
+
+      # 6. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
