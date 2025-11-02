@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workshop on Ontology-LLM
+title: Are Ontologies Still Relevant in the Era of LLMs?
 ---
 
 # About the Workshop
