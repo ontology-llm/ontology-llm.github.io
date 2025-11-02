@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Are Ontologies Still Relevant in the Era of LLMs?
-description: A Dagstuhl-style workshop co-located with [ISWC 2025](https://iswc2025.semanticweb.org/)
+description: A Dagstuhl-style workshop co-located with ISWC 2025 <br> November 3, 2025
 ---
 
 ## Motivation
