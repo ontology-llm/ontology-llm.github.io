@@ -42,10 +42,10 @@ In addition, we invite the participants to propose topics for discussion during 
 
 ## Organisation
 
-**Cogan Shimizu** – Wright State University, USA. cogan.shimizu@wright.edu  
+**Cogan Shimizu** – Wright State University, USA. [cogan.shimizu@wright.edu](mailto:cogan.shimizu@wright.edu)  
 
-**Valentina Tamma** – University of Liverpool, UK. valli@liverpool.ac.uk   
+**Valentina Tamma** – University of Liverpool, UK. [valli@liverpool.ac.uk](mailto:valli@liverpool.ac.uk)   
 
-**Raghava Mutharaju** – IIIT-Delhi, India. raghava.mutharaju@iiitd.ac.in  
+**Raghava Mutharaju** – IIIT-Delhi, India. [raghava.mutharaju@iiitd.ac.in](mailto:raghava.mutharaju@iiitd.ac.in)  
 
----
+
