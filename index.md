@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Are Ontologies Still Relevant in the Era of LLMs?
----
+description: A Dagstuhl-style workshop co-located with [ISWC 2025](https://iswc2025.semanticweb.org/)
+<!--
 
 # About the Workshop
 
 This workshop will explore how ontology-based LLM systems can enhance trust, autonomy, and accountability in AI agents. The goal is to examine the challenges, opportunities, and best practices for designing AI systems that interact safely with personal knowledge graphs.
 
----
-
+-->
 ## Motivation
 
 AI agents are increasingly handling sensitive personal and organizational data. With the rise of agentic AI, it is crucial to ensure systems are trustworthy, ethically aligned, and accountable. This workshop aims to address the following:
