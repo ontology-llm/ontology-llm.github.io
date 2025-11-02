@@ -6,21 +6,19 @@ description: A Dagstuhl-style workshop co-located with ISWC 2025 <br> November 3
 
 ## Motivation
 
-AI agents are increasingly handling sensitive personal and organizational data. With the rise of agentic AI, it is crucial to ensure systems are trustworthy, ethically aligned, and accountable. This workshop aims to address the following:
-
-- How AI can leverage ontologies for better reasoning.
-- Ensuring autonomy and control over data for users.
-- Designing systems that are accountable and transparent.
-- Ethical and diverse perspectives in AI deployment.
+Ontologies are one of the key mechanisms for capturing domain knowledge in the form of important concepts and the relationships between them. It requires time, effort, and expertise to build the ontologies. They have been proven to be effective for applications involving data integration, question answering, recommendations, and explanation generation. However, Large Language Models (LLMs) trained on massive amounts of data are another source of knowledge. They are able to find interesting statistical patterns, memorize, and answer questions. On the other hand, they struggle with consistency and are prone to hallucinations. There has been growing interest in using them as a knowledge base. So the question that naturally comes up is whether one can replace the other or should they co-exist? In this workshop we seek to gather the inputs of researchers in answering these questions and more.
 
 ---
 
 ## Discussion Points
 
-1. **Trust**: How can ontology-driven AI systems engender trust in users?
-2. **Autonomy**: How can users retain meaningful control over personal and organizational data?
-3. **Accountability**: How can AI systems be held responsible for decisions and outputs?
-4. **Ethical Diversity**: Ensuring ethical and unbiased AI reasoning across contexts.
+1. Applications or tasks that still need ontologies and cannot be replaced by LLMs.
+2. Applications or tasks that were using ontologies but can now be completely replaced by LLMs.
+3. Applications or tasks that cannot be completed by just ontologies or LLMs individually, but would need a combination of both.
+4. Approaches for combining LLMs and ontologies.
+5. Possible consequences of using LLMs to build ontologies for specific tasks.
+
+In addition, we invite the participants to propose topics for discussion during the workshop.
 
 ---
 
